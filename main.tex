@@ -1,0 +1,379 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath} % Times-like font for text and math
+\usepackage{setspace}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{csquotes}
+\usepackage{float}     % for [H]
+\usepackage{adjustbox} % for scaling inside the table files
+\usepackage{amsmath} 
+\raggedbottom
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue,
+  pdfauthor={Dawn Sonia Lim Xi; Koh Wei Dong Jaren; Ho Chung Tat Rangi; Rithika Sreekanth; Wong Yi Hong},
+  pdftitle={Economic Costs and Development Consequences of Malaria in Sub-Saharan Africa}
+}
+
+\titleformat{\section}{\normalfont\bfseries\Large}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\bfseries\large}{\thesubsection}{1em}{}
+
+\setlist{nosep}
+
+\doublespacing
+
+\begin{document}
+
+% ---------------------- Title Page ----------------------
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    {\Large \textbf{National University of Singapore}}\\[0.5em]
+    {\large EC4371 Development Economics}\\[2.5cm]
+
+    {\LARGE \textbf{Economic Costs and Development Consequences of Malaria in Sub-Saharan Africa}}\\[2cm]
+
+    \begin{tabular}{l l}
+        \textbf{Names} & \textbf{Matric Numbers} \\[0.5em]
+        Dawn Sonia Lim Xi & A0237967J \\
+        Koh Wei Dong Jaren & A0234236L \\
+        Ho Chung Tat Rangi & A0259298H \\
+        Rithika Sreekanth & A0265724Y \\
+        Wong Yi Hong & A0252055M \\
+    \end{tabular}
+
+    \vfill
+    \vspace*{1cm}
+\end{titlepage}
+
+% ---------------------- TOC ----------------------
+\tableofcontents
+\newpage
+
+% ---------------------- Main Content ----------------------
+
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+Malaria remains one of the most enduring public health challenges in sub-Saharan Africa, shaping both human capital formation and long-term economic outcomes. Despite global eradication efforts in the mid-twentieth century, the World Health Organization's (WHO) exclusion of Africa from the 1955 Global Malaria Eradication Programme left the region disproportionately burdened by the disease \parencite{packard2009,najera2011}. This paper examines how that historical omission continues to influence educational attainment and productivity, highlighting the long-run development implications of unequal health interventions across regions.
+
+\section{Identification of the Topic}
+\textbf{Economic Costs and Development Consequences of Malaria in Sub-Saharan Africa.}
+%
+% Author note retained as a comment from the original draft:
+% (I would like to talk about how I found out about this topic from my Geography Professor since that was actually how we identified this topic but idk how relevant that would be?)
+
+\section{Motivation and Importance of the Study}
+Malaria remains one of the most devastating public health and economic challenges in sub-Saharan Africa. Despite being theoretically eradicable, it continues to kill over 600{,}000 people annually, 76\% of whom are children under five, and accounts for more than 90\% of global cases and deaths \parencite{who2024facts}. Its persistence is not merely a biological or medical failure but a deeply political and economic one.
+
+\flushleft In 1955, the WHO launched its Global Malaria Eradication Programme (GMEP) with a stated long-term goal to eradicate the disease entirely, fueled by the effectiveness of two new tools: the insecticide dichlorodiphenyltrichloroethane (DDT) and the antimalarial drug chloroquine \parencite{thellier2024}. However, the organisation explicitly excluded sub-Saharan Africa, citing ``implementation difficulties,'' ``adverse environments,'' and ``low income levels'' \parencite{who2019gmepsagme}.
+
+\flushleft This decision institutionalised the idea that Africa was ``too poor'' to benefit from eradication efforts. The one-size-fits-all campaign model, successful elsewhere, was deemed incompatible with Africa's weak health infrastructure, poor communication networks, and limited fiscal capacity. Rather than adapt strategies to local contexts, global health leaders implicitly accepted malaria's persistence as inevitable, a view that has shaped funding priorities and policy decisions for decades \parencite{najera2011}. Fast forward to the present, the African region accounts for 95\% of all malaria cases \parencite{who2024facts}, while countries such as the United States are completely malaria-free.
+
+\flushleft This framing matters because malaria is not only a disease but a development trap. It lowers productivity, reduces schooling and cognitive outcomes, drives fertility decisions, and perpetuates poverty. Historical neglect, justified by perceptions of Africa's poverty, may itself be a reason for the region's continued underdevelopment. Understanding the economic costs of malaria and the consequences of withholding eradication efforts is therefore crucial for reframing future global health priorities. Hence, our paper dives deeper into the effects of this GMEP exclusion, focusing on the economic costs and development consequences of malaria in sub-Saharan Africa.
+
+\section{Literature Review}
+Malaria remains one of the most significant public health challenges in Sub-Saharan Africa and is a major barrier to human capital formation \parencite{kim2025}. Its effects extend beyond immediate health outcomes, influencing children's educational attainment, cognitive development, and long-term economic productivity. The adverse educational effects of a malaria infection are transmitted through three principal pathways: school absenteeism, impaired short-term cognitive function that reduces learning efficiency, and impaired long-term cognitive development that constrains cumulative learning capacity \parencite{angrist2023}. Interventions such as malaria chemoprevention have proven effective in mitigating these educational losses. Empirical findings indicate that school-based chemoprevention can enhance sustained attention and other cognitive skills, with a small but significant effect size achieved at relatively low cost \parencite{angrist2023}.
+
+\par\flushleft Beyond individual cognition, malaria also influences broader patterns of educational attainment. The disease reduces potential years of schooling through morbidity and mortality shocks while lowering the quality of learning achieved per year of schooling \parencite{kim2025}. Evidence from Tanzania's Roll Back Malaria (RBM) campaign shows that children exposed to eradication efforts attended on average 0.56 additional years of school, with comparable gains in Sri Lanka and multiple Latin American countries \parencite{kim2025}. These findings suggest that malaria eradication enhances both the quantity and quality components of human capital accumulation, thereby contributing to sustained improvements in educational outcomes and productivity \parencite{kim2025}.
+
+\par\flushleft At the household level, malaria further affects fertility and intergenerational investment decisions. The decline in child mortality reduces the cost of childbearing and encourages larger families, whereas declines in morbidity raise the returns to educational investment and encourage higher-quality, lower-quantity outcomes \parencite{becker1973}. Evidence from Tanzania illustrates that following the RBM campaign, gross fertility fell by 6.13\% and child mortality by 9.4\%, resulting in a net fertility reduction of 3.2\% \parencite{kim2025}. These results imply that the reduced cost of investing in child quality outweighs the reduced cost of child quantity, promoting sustained human capital accumulation. This intergenerational effect is reinforced as healthier children become healthier adults who invest more heavily in their own children's education \parencite{daruich2020}.
+
+\par\flushleft Malaria also exerts a significant strain on national economic growth. Cross-country evidence indicates that GDP per capita growth rates are approximately 1.3\% lower in malaria-endemic countries than in non-endemic ones \parencite{andrade2022}. The burden is similarly evident at the household level. In Uganda, households bear over 70\% of total societal malaria costs, with mean outpatient treatment estimated at \$15.12 per case \parencite{snyman2024}. Productivity losses are responsible for these expenditures, comprising up to 88\% of household costs due to time lost from work and caregiving responsibilities \parencite{snyman2024}. Notably, poorer households spend a much larger portion of their income on malaria, with the economic burden reaching 26\% of total consumption in the lowest income quintile compared to just 8\% among the wealthiest, thereby increasing the risk of catastrophic health expenditure \parencite{snyman2024}. At the macroeconomic level, the cumulative cost of malaria is immense. In Uganda, the illness was estimated to cost \$577 million (1.4\% of GDP) in 2021 \parencite{snyman2024}. Structural economic models suggest that complete eradication could raise long-run per capita income by approximately 6.8\%, with improved learning quality accounting for 74\% of near-term income gains \parencite{kim2025}.
+
+\par\flushleft Malaria chemoprevention programs rank among the most cost-effective human capital interventions globally. In learning-adjusted metrics, such interventions yield between five and eight additional learning-adjusted years of development (LAYD) per \$100 invested, outperforming many traditional education programs \parencite{angrist2023}. Policy recommendations underscore the importance of geographically targeted interventions. For instance, in Baringo County, Kenya, malaria transmission is concentrated in low-altitude riverine zones with perennial incidence, requiring continuous, localised control measures \parencite{omondi2017}. Advances in vaccine development also offer promising returns, as economic modelling suggests that vaccines achieving over 60\% efficacy would fully recover their costs within one generation through associated income gains, especially in regions where infection prevalence exceeds 20\% \parencite{kim2025}.
+
+\par\flushleft Nonetheless, key gaps persist in the literature, particularly regarding the mediating pathways between socioeconomic position and malaria outcomes. Limited evidence suggests that housing quality and food security explain 24.9\% and 18.6\% of the socioeconomic position effect on malaria, respectively \parencite{tusting2016}, while other protective factors such as education, interventions, and nutrition require further causal mediation analysis \parencite{wafula2023}. Methodological limitations, such as reliance on cross-sectional designs and inadequate confounder adjustment, continue to act as constraints to further inference. Moreover, the lack of standardised, comparable cost-of-illness data across endemic countries further compounds policy challenges \parencite{wafula2023}. Addressing these evidence gaps through longitudinal, interdisciplinary, and standardised research frameworks remains essential for designing malaria control policies that effectively link improved health to sustained economic growth and human capital development.
+
+\section{Research Question}
+This paper examines how malaria prevalence, shaped by historical and institutional decisions that excluded much of sub-Saharan Africa from early eradication efforts, continues to affect long-run human capital and economic development. Specifically, it asks:
+\begin{displayquote}
+\textbf{How does malaria prevalence, partly driven by the WHO's decision to exclude sub-Saharan Africa from the Global Malaria Eradication Programme (GMEP), influence long-run educational and economic outcomes in the region?}
+\end{displayquote}
+This question is motivated by the enduring debate surrounding the WHO's mid-twentieth-century stance that Africa was ``too poor'' to benefit effectively from eradication \parencite{packard2009,who2019gmepsagme}. The omission of sub-Saharan Africa from the 1955 GMEP reflected not merely technical constraints but also a broader pattern of uneven development and implicit cost--benefit calculations of human life \parencite{najera2011}. By contrast, regions such as the Americas and South Asia benefited from large-scale campaigns that significantly reduced malaria prevalence and generated measurable gains in human capital \parencite{bleakley2010}.
+
+\par\flushleft Building on this historical context, this study investigates whether the persistence of malaria in sub-Saharan Africa has had long-term implications for schooling, cognitive development, and productivity. Evidence from \textcite{angrist2023} shows that malaria chemoprevention yields measurable cognitive gains (Cohen's $d=0.12$) and cost-effective improvements in learning-adjusted years of development (LAYD), reinforcing the idea that malaria control is a vital input to human capital formation. This study extends that insight to a macroeconomic level, linking the legacy of differential eradication to present-day development gaps.
+
+\section{Methodology and Empirical Strategy}
+
+To identify the causal effects of malaria prevalence on long-run human capital outcomes, this paper employs a difference-in-differences (DiD) approach following \textcite{bleakley2010} and \textcite{cutler2010}. The empirical design exploits spatial and temporal variation in malaria eradication exposure across regions affected and unaffected by the WHO's Global Malaria Eradication Programme (GMEP).
+
+\subsection{Empirical Framework}
+
+The baseline specification estimated for country $c$ in year $t$ is as follows:
+
+\begin{align}
+\label{eq:baseline}
+Y_{ct} = \alpha 
+&+ \beta (Exposure_c \times Post_t)  \notag \\
+&+ \gamma_1 U5Mort_{c,t-5} 
++ \gamma_2 Fertility_{c,t-1} 
++ \gamma_3 HIV_{c,t-1} 
++ \gamma_4 Urban_{c,t}  \notag \\
+&+ \gamma_5 Precip_{c,t} 
++ \gamma_6 HealthSpend_{c,t} 
++ \gamma_7 AgriShare_{c,t} 
++ \gamma_8 PolStab_{c,t-1}  \notag \\
+&+ \mu_c + \lambda_t + \varepsilon_{ct}
+\end{align}
+
+\noindent where:
+
+\begin{itemize}
+    \item $Y_{ct}$ is the outcome of interest. In the GDP regression, this is $\ln(GDP\ per\ capita_{ct})$. In the education regressions, the outcomes include (i) primary school enrollment (gross \%), (ii) primary completion rate (\%), and (iii) adult attainment of primary education (\% of population aged 25 and above).
+    \item $Exposure_c$ measures baseline malaria exposure, constructed as the standardized average malaria incidence (or prevalence, if incidence data are missing) over 2000–2002.
+    \item $Post_t$ is an indicator equal to 1 for years $t \geq 2005$, corresponding to the large-scale malaria intervention and funding rollout period, and 0 otherwise.
+    \item $\beta$ captures the differential post-2005 evolution of the outcome variable in countries with higher baseline malaria exposure, relative to those with lower exposure.
+\end{itemize}
+
+
+\par\flushleft \noindent The vector of controls $\boldsymbol{\gamma}$ includes lagged demographic, health, and institutional variables:
+\begin{itemize}
+    \item $U5Mort_{c,t-5}$: under-five mortality rate (per 1,000 live births), lagged five years, capturing the baseline survival environment.
+    \item $Fertility_{c,t-1}$: total fertility rate (births per woman), lagged one year, capturing demographic pressure and dependency ratios.
+    \item $HIV_{c,t-1}$: HIV prevalence (\% of population ages 15–49), lagged one year, controlling for other infectious disease burdens.
+    \item $Urban_{c,t}$: urban population share (\%), capturing structural transformation and access to services.
+    \item $Precip_{c,t}$: annual precipitation (mm/year), accounting for ecological suitability for malaria transmission and agriculture.
+    \item $HealthSpend_{c,t}$: domestic general government health expenditure (\% of GDP), proxying for health system effort.
+    \item $AgriShare_{c,t}$: agriculture, forestry, and fishing value added (\% of GDP), capturing the economic structure.
+    \item $PolStab_{c,t-1}$: political stability index (percentile rank), lagged one year, controlling for institutional quality and conflict risk.
+\end{itemize}
+
+\noindent $\mu_c$ and $\lambda_t$ denote country and year fixed effects, respectively, controlling for time-invariant country characteristics (e.g., geography, colonial legacy, baseline institutions) and global shocks (e.g., commodity cycles, international funding waves, macroeconomic crises). Standard errors are clustered at the country level.
+
+\subsection{Identification Strategy}
+
+Identification arises from two sources of quasi-experimental variation. First, the WHO's decision to exclude sub-Saharan Africa from the GMEP provides a natural counterfactual to regions that benefited from eradication. This exclusion is plausibly exogenous to Africa's long-run economic trajectory, given the contemporaneous logistical and epidemiological constraints. Second, within Africa, variation in malaria ecology and endemicity across regions \parencite{mafwele2022,kioko2025} allows for comparisons between high- and low-suitability zones. This mirrors the empirical strategy of \textcite{bleakley2010} for the Americas, where declines in malaria transmission induced by eradication translated into long-run gains in education and income.
+
+\subsection{Supporting Evidence}
+
+Complementary evidence is drawn from multiple sources, including Demographic and Health Surveys (DHS), WHO malaria surveillance archives, and historical documentation of the eradication program. Recent research indicates that malaria control improves cognitive performance and schooling outcomes at relatively low cost \parencite{angrist2023}, while meta-analyses confirm that malaria contributes to persistent poverty through cognitive and productivity channels \parencite{kanyangarara2023}. Integrating these micro-level findings with macroeconomic panel data enables triangulation of the causal mechanisms at work.
+
+
+\subsection{Expected Contributions}
+
+This framework enables causal inference regarding how the absence of eradication efforts in sub-Saharan Africa shaped long-term disparities in human capital and economic development. It further provides insights into why comparable resource inputs may yield unequal returns across countries, an enduring puzzle in global development economics. By combining historical data with modern econometric methods, this paper contributes to the literature on the economic consequences of disease burdens and the long-run effects of global health policy interventions.
+
+
+\section{Data Description}
+
+\subsection{Unit of observation and sample construction}
+The empirical analysis is conducted on a country-year panel covering all economies classified by the World Bank as Sub-Saharan Africa (SSA) together with India as a large non-African comparator with historically high malaria burden and major post 2005 control scale-up. The observation is country $c$ in year $t$, indexed by standardized ISO3 codes and harmonized country names. The study period is 2000 to 2023, with the start date dictated by the coverage of the Malaria Atlas Project (MAP), which provides consistently comparable malaria burden measures only from 2000 onward. Sample sizes differ across outcomes because educational series begin later for several countries. In our main GDP per capita specifications the panel contains on the order of several hundred country-year observations across roughly forty SSA countries and about two decades. We estimate (i) SSA-only specifications and (ii) pooled SSA+India specifications that allow for differential post 2005 responses in India.
+
+\subsection{Data sources}
+Malaria burden is drawn from MAP: annual \emph{P.~falciparum} incidence (cases per 1{,}000 population at risk) and parasite prevalence in children (PfPR; ``per 100 children''). Malaria mortality (per 100{,}000) is taken from WHO World Malaria Reports. Indicators of intervention intensity, namely use of insecticide-treated or long-lasting nets among under-5s and antimalarial treatment for fever in under-5s, are assembled from UNICEF and DHS compilations. Educational outcomes (primary gross enrollment, primary completion, and adult attainment of at least primary education among the population aged 25+) are obtained from UNESCO UIS as disseminated in the World Development Indicators (WDI). Economic outcomes and structure (GDP per capita, GDP, agriculture, forestry and fishing value added as a share of GDP), health and demography (under-5 mortality, total fertility rate, HIV prevalence aged 15 to 49, domestic general government health expenditure as a share of GDP), and urbanization (urban population share) are taken from WDI. Institutional quality is measured by the Worldwide Governance Indicators (WGI) Political Stability and Absence of Violence or Terrorism percentile rank. Average precipitation in depth (mm per year) comes from FAO and WDI. Where a series exists in multiple repositories, we prioritize WDI or WGI versions for standardized coverage and metadata.
+
+\subsection{Variable definitions and construction}
+\paragraph{Outcomes.} The main economic outcome is $\ln(\text{GDPpc}_{ct})$, the natural logarithm of GDP per capita in current US dollars. Robustness uses constant-dollar and PPP versions. Educational outcomes are: (i) primary gross enrollment (percent of primary-age population), (ii) primary completion rate (percent of the relevant age cohort), and (iii) adult attainment of at least primary education among those aged 25+ (percent cumulative).
+
+\paragraph{Treatment and exposure.} Baseline malaria exposure for country $c$ is defined as the average MAP malaria burden over 2000 to 2002. Our preferred measure uses incidence per 1{,}000 at risk,
+\[
+\text{Exposure}_c \equiv \frac{1}{3}\sum_{\tau=2000}^{2002} \text{Incidence}_{c\tau},
+\]
+with PfPR prevalence substituted if incidence is unavailable in the baseline window. For interpretability, exposure is standardized across the estimation sample to mean zero and unit variance,
+\[
+\widetilde{\text{Exposure}}_c=\frac{\text{Exposure}_c-\bar{\text{Exposure}}}{s(\text{Exposure})},
+\]
+so coefficients can be read as effects per one standard deviation of initial malaria burden. The post scale-up period is indicated by $\text{Post}_t=1\{t\ge 2005\}$, which captures the timing of large scale roll-out of ITNs or LLINs and ACT therapy financed by the Global Fund and other donors.
+
+\paragraph{Covariates.} The core control set $X_{ct}$ is parsimonious and theory driven. It includes under-5 mortality lagged five years (per 1{,}000 live births) to proxy baseline child-health environments; total fertility rate lagged one year (births per woman) to capture demographic pressure and the quantity quality channel; HIV prevalence among ages 15 to 49 lagged one year (percent) to condition on other major disease burdens; the urban population share (percent) to proxy structural transformation and access to services; average precipitation (mm per year) to capture malaria ecology and agricultural conditions; domestic general government health expenditure (percent of GDP) to proxy public health effort; agriculture value added (percent of GDP) to capture economic structure; and the WGI political stability percentile rank lagged one year to summarize institutional quality and conflict risk. Intervention intensity variables (ITN or LLIN use, antimalarial treatment for fever) and contemporaneous malaria incidence or mortality are used in robustness analyses or as alternative outcomes.
+
+\paragraph{Estimation skeleton.} All specifications include country fixed effects $\mu_c$ and year fixed effects $\lambda_t$. Standard errors are clustered at the country level. Pooled SSA+India regressions add an India indicator and interactions with $\widetilde{\text{Exposure}}_c\times\text{Post}_t$ to test for differential post 2005 responses.
+
+\subsection{Cleaning, harmonization, and transformations}
+Source specific placeholders such as ``..'' and em dashes in raw files are treated as missing. Numeric series are coerced to numeric types after harmonizing decimal marks. Percentages remain on a 0 to 100 scale. Country names are standardized (for example, Eswatini and Swaziland) and mapped to ISO3 codes before merging. Annual series are aligned on calendar years. Lags are created within country after sorting by year. We log transform GDP per capita. For figures we may winsorize at the 1\% tails to avoid undue influence. Regressions are estimated on raw values. An observation is included if the outcome and the specification's core regressors are non-missing. No outcome imputation is performed.
+
+\subsection{Descriptive statistics and coverage}
+Coverage is dense for malaria and macro series after 2000, while educational series are thinner before 2005 in several countries. ITN or LLIN and treatment indicators begin in the mid 2000s and are missing in early years for some countries. There is substantial cross-country variation in baseline malaria exposure within SSA and between SSA and India, along with strong secular improvements after 2005 in ITN coverage and under-5 mortality. Urbanization, political stability, and health spending also vary over time within countries, supporting identification that relies on fixed effects. The paper reports summary statistics by region (SSA versus India) and period (pre versus post 2005), together with within country standard deviations to emphasize the variation that identifies the parameters.
+
+\subsection{Measurement considerations}
+MAP incidence and PfPR are modeled estimates that combine surveillance and covariate data. Using the baseline 2000 to 2002 average mitigates simultaneity with post 2005 outcomes. Education measures differ conceptually. Gross enrollment can exceed 100 when over-age enrollment is high. Completion reflects flow attainment. Adult attainment for ages 25 and above is slow moving. We therefore analyze them separately and avoid mixing them into a single index. WGI political stability is a percentile rank. Lagging by one year reduces simultaneity with current outcomes. Precipitation is a broad ecological proxy that also correlates with agricultural productivity. Including agriculture's GDP share helps to separate these channels.
+
+\section{Preliminary Findings}
+\raggedright
+
+\subsection{SSA only}
+
+% These files already contain \begin{table} ... \end{table}
+% so DO NOT wrap them in another table environment.
+\input{table_ssa.tex}
+
+Table~\ref{tab:ssa_main} reports fixed effects estimates for Sub-Saharan Africa with
+country and year fixed effects and standard errors clustered by country. Model fit is
+high once fixed effects are included. The full model $R^{2}$ ranges from 0.73 to 0.97
+across outcomes, with 680 country-year observations for log GDP per capita, 530 for
+primary enrollment, 431 for primary completion, and 168 for adult attainment of
+primary schooling.
+
+The visible control patterns are as follows. First, government health expenditure as a
+share of GDP is positively and precisely associated with primary completion within
+countries (coefficient 3.71 with $p<0.01$), while the same coefficient is small and
+imprecise for enrollment and adult attainment, and slightly negative and insignificant
+for income. Second, the urban population share is negatively associated with primary
+completion (coefficient $-0.95$ with $p<0.10$) and is close to zero in the other
+columns. Third, political stability lagged one year is positively associated with log
+GDP per capita (significant at the ten percent level), although the magnitude is small
+at the reported precision. Fertility and HIV prevalence enter the income specification
+with the expected signs but are not precisely estimated. Agriculture value added has a
+small negative coefficient for income and is imprecise elsewhere. Under-five mortality
+lagged five years is near zero across outcomes once fixed effects and the other controls
+are included.
+
+The main parameter of interest is the interaction between baseline malaria exposure and
+the post period. That term is not printed in the exported table due to column selection,
+so the quantitative interpretation of the exposure effect is deferred to a re-export
+that retains the interaction term. The findings above summarize what can be read
+directly from this table.
+
+\subsection{SSA and India pooled}
+
+\input{table_pooled_heterogeneity.tex}
+
+Table~\ref{tab:pooled_hetero} pools SSA and India to allow a comparison of baseline
+exposure effects in SSA and the incremental differential for India. Model fit remains
+very high in the income specification (full model $R^{2}$ of 0.97) with 680
+observations, 39 country groups, and 18 year groups. The control coefficients mirror
+those in the SSA-only income specification: political stability is positively associated
+with log GDP per capita at the ten percent level, while fertility, HIV prevalence,
+health spending, agriculture share, and urbanization are small and imprecise.
+
+By design, the pooled model identifies two objects of interest. The first is the
+baseline exposure-by-post effect for SSA, and the second is the India increment that
+tests whether the post-2005 response differs in India relative to SSA. These
+coefficients are not printed in the current export, which focuses on the control block.
+As a result, the heterogeneity in post-2005 responses between SSA and India cannot be
+read from this table. A re-export that keeps the exposure-by-post term and its
+interaction with the India indicator will allow the comparison to be shown directly.
+The stability of the control coefficients and the high fit indicate that the pooled
+specification is well behaved relative to the SSA-only baseline.
+
+\section{Policy Discussion and Implications}
+The exclusion of sub-Saharan Africa from the 1955 Global Malaria Eradication Programme (GMEP) had enduring consequences for both public health and economic development in Africa. Although officially justified on the grounds of limited resources and implementation constraints, this decision effectively codified a belief that malaria eradication in Africa was economically infeasible. This episode illustrates how global health priorities have historically been shaped by narrow cost--benefit analyses, rather than long-term welfare considerations. Reassessing this policy stance provides valuable lessons for contemporary policy design. The discussion below outlines four implications for future malaria eradication strategies in sub-Saharan Africa.
+
+\subsection*{Expanding the definition of cost-effectiveness}
+\addcontentsline{toc}{subsection}{Expanding the definition of cost-effectiveness}
+The first key lesson from history concerns the limitations of short-term cost-effectiveness frameworks. The GMEP allocated resources to regions where eradication could be achieved rapidly with low cost, which implicitly discounted the broader benefits of malaria control. Empirical studies have indicated that malaria significantly depresses growth and human capital formation; Gallup and Sachs (2001) estimate that endemic malaria reduces annual GDP growth by approximately 1.3 percentage points, while \textcite{bleakley2010} finds that eradication campaigns in the Americas generated persistent income gains through improved health and education outcomes. \textit{[Consistent with this literature, our analysis shows that areas more exposed to eradication efforts experienced X\% higher educational attainment and Y\% lower child mortality. Insert estimates once available.]}
+
+These findings suggest that conventional metrics that focus on cost-effectiveness fail to capture the intergenerational returns to malaria eradication. Policy frameworks should therefore value eradication not only in terms of public health, but also its benefit in long-run productivity and human capital accumulation. \textit{[Time-series results if applicable: Our results further support this by showing that the estimated gains in XX persist across at least XX.]}
+
+\textit{[Additional policy findings + gaps to be inserted.]}
+
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+\textit{[To be completed.]}
+
+\newpage
+\begin{thebibliography}{99}
+
+\bibitem[Angrist et~al.(2023)]{angrist2023}
+Angrist, N., Jukes, M. C. H., Clarke, S., Chico, R. M., Opondo, C., Bundy, D., \& Cohee, L. M. (2023).
+School-based malaria chemoprevention as a cost-effective approach to improve cognitive and educational outcomes: A meta-analysis.
+London School of Hygiene \& Tropical Medicine.
+
+\bibitem[Andrade et~al.(2022)]{andrade2022}
+Andrade, C., et al. (2022).
+Malaria and economic growth: Cross-country evidence.
+\emph{(Source as cited in original draft).}
+
+\bibitem[Becker \& Lewis(1973)]{becker1973}
+Becker, G. S., \& Lewis, H. G. (1973).
+On the Interaction between the Quantity and Quality of Children.
+\emph{Journal of Political Economy}, 81(2), S279--S288.
+
+\bibitem[Bleakley(2010)]{bleakley2010}
+Bleakley, H. (2010).
+Malaria eradication in the Americas: A retrospective analysis of childhood exposure.
+\emph{American Economic Journal: Applied Economics}, 2(2), 1--45.
+\url{https://doi.org/10.1257/app.2.2.1}
+
+\bibitem[Cutler et~al.(2010)]{cutler2010}
+Cutler, D. M., Fung, W., Kremer, M., Singhal, M., \& Vogl, T. (2010).
+Mosquitoes: The Long-Term Effects of Malaria Eradication in India.
+\emph{(Working paper / reference as commonly cited).}
+
+\bibitem[Daruich(2020)]{daruich2020}
+Daruich, D. (2020).
+The Macroeconomic Consequences of Early Childhood Human Capital Accumulation.
+\emph{American Economic Journal: Macroeconomics}, 12(3), 61--114.
+
+\bibitem[Kanyangarara et~al.(2023)]{kanyangarara2023}
+Kanyangarara, M., et al. (2023).
+What are the pathways between poverty and malaria in Sub-Saharan Africa? A systematic review of mediation studies.
+\emph{BMC Public Health}, 23(1).
+\url{https://pmc.ncbi.nlm.nih.gov/articles/PMC10249281}
+
+\bibitem[Kioko \& Blanford(2025)]{kioko2025}
+Kioko, C., \& Blanford, J. (2025).
+Malaria survey data and geospatial suitability mapping for understanding spatial and temporal variations of risk across Kenya.
+\emph{Parasite Epidemiology and Control}, 28, e00399.
+\url{https://doi.org/10.1016/j.parepi.2024.e00399}
+
+\bibitem[Mafwele \& Lee(2022)]{mafwele2022}
+Mafwele, B. J., \& Lee, J. W. (2022).
+Relationships between transmission of malaria in Africa and climate factors.
+\emph{Scientific Reports}, 12(1), 14392.
+\url{https://doi.org/10.1038/s41598-022-18782-9}
+
+\bibitem[Nájera et~al.(2011)]{najera2011}
+Nájera, J. A., González-Silva, M., \& Alonso, P. L. (2011).
+Some lessons for the future from the Global Malaria Eradication Programme (1955--1969).
+\emph{PLoS Medicine}, 8(1), e1000412.
+\url{https://doi.org/10.1371/journal.pmed.1000412}
+
+\bibitem[Omondi et~al.(2017)]{omondi2017}
+Omondi, S. S., et al. (2017).
+Spatial-temporal modelling of malaria risk in Baringo County, Kenya.
+\emph{(Source as cited in original draft).}
+
+\bibitem[Packard(2009)]{packard2009}
+Packard, R. M. (2009).
+\emph{The making of a tropical disease: A short history of malaria}.
+Johns Hopkins University Press.
+
+\bibitem[Snyman et~al.(2024)]{snyman2024}
+Snyman, K., et al. (2024).
+Household economic burden of malaria in Uganda.
+\emph{(Source as cited in original draft).}
+
+\bibitem[Thellier et~al.(2024)]{thellier2024}
+Thellier, M., Gemegah, A. A. J., \& Tantaoui, I. (2024).
+Global Fight against Malaria: Goals and Achievements 1900--2022.
+\emph{Journal of Clinical Medicine}, 13(19), 5680.
+\url{https://doi.org/10.3390/jcm13195680}
+
+\bibitem[Tusting et~al.(2016)]{tusting2016}
+Tusting, L. S., et al. (2016).
+Socioeconomic development as an intervention against malaria: A systematic review and meta-analysis.
+\emph{The Lancet}, 387(10035), 1573--1582.
+\emph{(Cited in original draft as pathway shares; exact source may differ.)}
+
+\bibitem[Wafula et~al.(2023)]{wafula2023}
+Wafula, S. T., et al. (2023).
+Socioeconomic drivers and malaria: Evidence and research gaps.
+\emph{(Source as cited in original draft).}
+
+\bibitem[WHO(2019)]{who2019gmepsagme}
+World Health Organization. (2019).
+\emph{Malaria eradication: benefits, future scenarios and feasibility.} Executive summary of the report of the WHO Strategic Advisory Group on Malaria Eradication.
+\url{https://mesamalaria.org/wp-content/uploads/2019/08/WHO-CDS-GMP-2019.10-eng.pdf}
+
+\bibitem[WHO(2024)]{who2024facts}
+World Health Organization. (2024, December 11).
+Fact sheet about malaria.
+\url{https://www.who.int/news-room/fact-sheets/detail/malaria}
+
+\bibitem[Kim(2025)]{kim2025}
+Kim, Y. (2025).
+\emph{Malaria and Human Capital: Evidence from Multiple Countries.}
+\emph{(Working paper / report as cited in original draft).}
+
+\end{thebibliography}
+
+\end{document}
