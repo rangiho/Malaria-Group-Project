@@ -1,5 +1,5 @@
 ############################################################
-# Appendix C Table: Summary stats for FINAL empirical spec
+# Summary stats for FINAL empirical spec
 # Variables: ln_gdp_pc, agri_gdp, polstab_l1, exposure_std, post
 # Output: table_summary_final.tex (booktabs LaTeX)
 ############################################################
